@@ -1,0 +1,151 @@
+div.header-logo {
+  margin-top: 10px;
+}
+div.header-menu {
+  width: 50%;
+  a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+a.header-book {
+  width: 20%;
+  height: 45px;
+}
+div.photo-header-one {
+  width: 70%;
+}
+div.photo-header-two {
+  width: 50%;
+}
+section.photo-under-header-photo-one {
+  top: 40%;
+  right: 30%;
+}
+section.photo-under-header-photo-two {
+  top: 40%;
+}
+div.social-media {
+  width: 80%;
+}
+div.title-special {
+  width: 60%;
+}
+div.price {
+  top: -6%;
+  right: 4%;
+}
+div.detail-food-photo div {
+  width: 90%;
+}
+div.photo-under-special-one {
+  top: 10%;
+  left: 26%;
+}
+div.photo-under-special-two {
+  top: 8%;
+  right: 28%;
+}
+div.photo-one {
+  right: 21%;
+}
+div.photo-six {
+  width: 7%;
+  left: 15%;
+}
+div.photo-nine {
+  width: 10%;
+  top: 55%;
+}
+div.photo-eight {
+  width: 5%;
+}
+div.photo-seven {
+  width: 10%;
+}
+div.title-detail-menu-book {
+  width: 62%;
+  h2 {
+    font-size: 34px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+section.welcome {
+  gap: 15%;
+  padding: 100px 100px 130px 130px;
+}
+div.salad-dish {
+  width: 80%;
+}
+div.text-slider {
+  height: 20%;
+  p {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  h4 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  h5 {
+    font-size: 12px;
+    margin-top: 0;
+  }
+}
+div.subscribe {
+  h2 {
+    font-size: 24px;
+  }
+  input {
+    height: 40px;
+  }
+  button {
+    height: 30px;
+    font-size: 12px;
+  }
+  img {
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+  }
+}
+div.logo-detail-title-hour {
+  height: 270px;
+}
+div.hour p {
+  font-size: 12px;
+}
+div.navigation,
+div.dishes {
+  height: 130px;
+  a {
+    font-size: 14px;
+  }
+}
+div.copyright-detail {
+  width: 50% !important;
+  p {
+    font-size: 14px !important;
+  }
+}
+div.service-policy {
+  width: 33% !important;
+  font-size: 14px !important;
+}
+div.follow {
+  a {
+    width: 30px;
+    height: 30px;
+  }
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+section.footer {
+  height: 520px;
+}

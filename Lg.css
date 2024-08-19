@@ -1,0 +1,254 @@
+.header-options {
+  padding: 20px 50px;
+}
+a.header-book {
+  display: none;
+}
+div.header-menu {
+  width: 70%;
+  font-size: 16px;
+  font-weight: 600;
+}
+div.header-logo {
+  width: 22%;
+}
+section.photo-text-menu-social-media {
+  padding: 30px 40px 40px 50px;
+}
+div.text-menu-social-media {
+  width: 45%;
+  height: 370px;
+  h1 {
+    font-size: 28px;
+  }
+  div.text-menu {
+    width: 100%;
+    div.menu-book {
+      width: 90%;
+      a.menu {
+        width: 32%;
+        font-size: 14px;
+      }
+      a.book {
+        width: 45%;
+        font-size: 14px;
+      }
+    }
+    div.description-title {
+      width: 90%;
+      font-size: 12px;
+    }
+    div.title {
+      width: 100%;
+    }
+  }
+}
+div.social-media {
+  width: 80%;
+  a.social-logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+div.line {
+  width: 40%;
+}
+div.photo-header-one {
+  width: 100%;
+}
+div.photo-header-two {
+  width: 65%;
+  /* right: 0; */
+}
+section.line-design-one {
+  left: -30%;
+  top: -40%;
+}
+section.line-design-two {
+  left: -30%;
+}
+section.line-design-three {
+  left: -35%;
+}
+section.photo-under-header-photo-one {
+  width: 30%;
+  top: 40%;
+}
+section.photo-under-header-photo-two {
+  top: 30%;
+}
+section.title-special-foodprice {
+  padding: 50px 40px 100px;
+  height: 900px;
+}
+div.title-special {
+  width: 60%;
+}
+div.foodprice {
+  grid: repeat(2, 400px) / repeat(2, 1fr);
+}
+div.photo-under-special-one {
+  left: 15%;
+}
+div.photo-under-special-two {
+  right: 15%;
+}
+section.welcome {
+  padding: 70px 40px 100px;
+}
+div.photo-six {
+  width: 10%;
+  left: 8%;
+}
+div.photo-seven {
+  display: none;
+}
+div.photo-eight {
+  width: 8%;
+}
+div.photo-nine {
+  width: 15%;
+}
+div.title-detail {
+  h2 {
+    font-size: 34px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+div.photo-two {
+  top: -75%;
+  width: 130px;
+}
+div.photo-three {
+  top: -70%;
+  right: 55%;
+}
+div.photo-four {
+  display: none;
+}
+div.tick {
+  width: 20px !important;
+  height: 20px !important;
+
+  img {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+div.options > div {
+  p {
+    font-size: 12px !important;
+  }
+}
+div.title-options-menu-book h2 {
+  font-size: 34px;
+}
+div.img-slider {
+  width: 80px;
+  height: 80px;
+  margin-left: calc(50% - 40px);
+}
+div.text-slider {
+  height: 200px;
+  p {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  h5 {
+    font-size: 12px;
+    margin-bottom: 40px;
+  }
+}
+section.subscribe-email {
+  padding: 0 8% 0;
+  h2 {
+    font-size: 22px;
+    top: 26%;
+    width: 80%;
+  }
+  img {
+    border-radius: 90px !important;
+    -webkit-border-radius: 90px !important;
+    -moz-border-radius: 90px !important;
+    -ms-border-radius: 90px !important;
+    -o-border-radius: 90px !important;
+  }
+  input {
+    height: 40px;
+    bottom: 25%;
+  }
+  button {
+    height: 30px;
+    font-size: 12px;
+    bottom: 27%;
+  }
+}
+section.footer {
+  height: 500px;
+}
+div.logo-detail-title-hour {
+  div.logo {
+    width: 120px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+div.hour p {
+  font-size: 10px;
+}
+div.navigation,
+div.dishes {
+  margin-bottom: 10%;
+  height: 120px;
+  h4 {
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+}
+div.dishes {
+  width: 30%;
+}
+div.follow {
+  width: 18%;
+  height: 105px;
+  h4 {
+    font-size: 12px;
+  }
+  div.footer-social-media {
+    a {
+      width: 22px;
+      height: 22px;
+      img {
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+}
+div.copyright-detail {
+  width: 60% !important;
+
+  p {
+    font-size: 12px !important;
+  }
+  div.copyright {
+    width: 20px !important;
+    height: 20px !important;
+    img {
+      width: 15px !important;
+      height: 15px !important;
+    }
+  }
+}
+div.service-policy {
+  width: 35% !important;
+  font-size: 12px !important;
+}

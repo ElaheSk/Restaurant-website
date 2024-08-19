@@ -1,0 +1,149 @@
+:root {
+  --black-color: #101a24;
+  --gray-color: #5c6574;
+  --white-color: #ffffff;
+  --radius: 20% 6%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  font-family: Vollkorn;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  src: url(../Font/Vollkorn/static/Vollkorn-Regular.ttf);
+}
+
+section.menu {
+  width: 100vw;
+  height: 100vh;
+  padding: 10px 100px 30px;
+  background-color: #f8f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+div.menu-list {
+  width: 100%;
+  height: 100%;
+  background-color: #faeaea;
+  display: grid;
+  border-radius: 20px;
+  grid: repeat(2, 1fr) / repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  font-size: 25px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  a {
+    color: var(--black-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  a:hover {
+    background-color: #fae0e0;
+  }
+}
+div.home-icon {
+  width: 40px;
+  height: 50px;
+  align-self: flex-end;
+  margin-right: -70px;
+  img {
+    width: 35px;
+    height: 45px;
+  }
+  img.settings {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+section.menu-items-breakfast,
+section.menu-items-lunch,
+section.menu-items-dinner,
+section.menu-items-coffee,
+section.menu-items-herbal-tea,
+section.menu-items-milkshake {
+  width: 100%;
+  height: 1000px;
+  padding: 10px 100px 30px;
+  background-color: #f8f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h2 {
+    font-size: 32px;
+  }
+}
+div.meal {
+  width: 100%;
+  height: 900px;
+  border-radius: 20px;
+  background-color: #faeaea;
+  display: grid;
+  grid: repeat(5, 1fr) / repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+div.item-meal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 10px 20px 10px;
+}
+div.item-meal:hover {
+  background-color: #fae0e0;
+}
+div.item-name-detail {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  h3 {
+    font-size: 16px;
+    color: var(--black-color);
+  }
+  p {
+    font-size: 14px;
+    color: var(--gray-color);
+  }
+}
+div.item-photo {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 85px;
+    height: auto;
+  }
+}
+.menu_sm {
+  display: none;
+}

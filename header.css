@@ -1,0 +1,216 @@
+:root {
+  --font: Vollkorn;
+  --orange-color: #ea6d27;
+  --white-color: #ffffff;
+  --black-color: #101a24;
+  --gray-color: #5c6574;
+}
+.header-options {
+  width: 100%;
+  height: 100px;
+  padding: 20px 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+div.header-logo {
+  width: 15%;
+  height: auto;
+}
+div.header-menu {
+  width: 45%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0 0 0;
+  text-transform: capitalize;
+  font-family: var(--font);
+  font-size: 18px;
+}
+div.header-menu div a {
+  color: var(--black-color);
+}
+a.header-book {
+  width: 12%;
+  height: 54px;
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  font-family: var(--font);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20% 6%;
+}
+div.text-menu {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+div.title {
+  width: 280px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.title h1 {
+  font-weight: bold;
+  line-height: 40px;
+  font-family: var(--font);
+  font-size: 36px;
+  color: var(--black-color);
+}
+section.photo-text-menu-social-media {
+  width: 100%;
+  height: 600px;
+  padding: 50px 50px 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+div.description-title {
+  width: 310px;
+  height: 60px;
+  font-size: 14px;
+  font-family: var(--font);
+  color: var(--gray-color);
+  margin-top: 40px;
+}
+div.menu-book {
+  width: 70%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a.menu {
+  width: 30%;
+  height: 40px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: var(--font);
+  border-radius: 20% 6%;
+}
+a.book {
+  width: 50%;
+  height: 40px;
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: var(--font);
+  border-radius: 20% 6%;
+}
+div.social-media {
+  display: flex;
+  width: 55%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.social-logo {
+  width: 35px;
+  height: 35px;
+  border: 2px solid var(--black-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.social-logo img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+div.line {
+  width: 100px;
+  height: 1px;
+  background-color: #000000;
+}
+div.text-menu-social-media {
+  width: 40%;
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+section.line-design-one {
+  position: absolute;
+  top: -42%;
+  left: 0;
+}
+section.line-design-two {
+  position: absolute;
+  top: -33%;
+  left: -7%;
+}
+section.line-design-three {
+  position: absolute;
+  top: -40%;
+  left: -10%;
+}
+div.photo-header {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+}
+div.photo-header-one {
+  width: 80%;
+  height: 450px;
+}
+img.settings {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+div.photo-header-two {
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+}
+section.photo-under-header-photo-one {
+  width: 20%;
+  height: 100px;
+  position: absolute;
+  top: 120px;
+  right: 27%;
+}
+section.photo-under-header-photo-two {
+  width: 20%;
+  height: 150px;
+  position: absolute;
+  top: 108px;
+  right: 4%;
+}
+section.photo-under-header-photo-three {
+  width: 20%;
+  height: 150px;
+  position: absolute;
+  top: 430px;
+  right: 0;
+}

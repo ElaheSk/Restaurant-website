@@ -1,0 +1,23 @@
+@import url(./header.css);
+@import url(./default.css);
+@import url(./footer.css);
+@import url(./slider.css);
+@import url(./menu.css);
+@import url(./Sm.css) screen and (max-width: 530px);
+@import url(./Lg.css) screen and (min-width: 530px) and (max-width: 850px);
+@import url(./Xl.css) screen and (min-width: 850px) and (max-width: 1100px);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  font-family: Vollkorn;
+}
+
+@font-face {
+  font-family: Vollkorn;
+  src: url(../Font/Vollkorn/static/Vollkorn-Regular.ttf);
+}
